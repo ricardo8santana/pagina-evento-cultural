@@ -2,15 +2,17 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
-    background-color: aqua;
+    background-color:  lightblue;
     color:#000;
+       
 }
 
-p{
+p, p1, p2{
     font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     color: #000;
     margin: 20px;
+
 }
 h2{
     color: darkblue;
@@ -23,13 +25,21 @@ header{
 }
 img{
     max-width: 50%;
-    height: 10%;
+    height: 30%;
     border-radius: 12PX;
-    border: 1px solid #1e293b;
+
     margin-bottom: 14px;
+    box-shadow: #bae6fd;
+}
+main > section{
+    margin: 20px;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #e0f2fe;
 }
 footer{
     text-align: center;
     font-size: 14px;
     color: darkblue;
 }
+
