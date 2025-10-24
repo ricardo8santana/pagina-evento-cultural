@@ -6,7 +6,7 @@ body{
     color:#000;
        
 }
-
+h1
 p, p1, p2{
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
@@ -30,6 +30,12 @@ img{
 
     margin-bottom: 14px;
     box-shadow: #bae6fd;
+}
+
+main{
+    max-width: 950px;
+    margin: 30px auto;    
+    padding: 0 20px;
 }
 main > section{
     margin: 20px;
